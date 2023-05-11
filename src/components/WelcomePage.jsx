@@ -1,4 +1,5 @@
 import './WelcomePage.css';
+import img from '../assets/face-img.png';
 
 function WelcomePage(){
 	return(
@@ -38,7 +39,7 @@ function WelcomePage(){
 		</div>
 			<div className="titleWelcome">welcome to my portfolio.</div>
 			<div className="contentWelcome">
-				<img src="../assets/face-img.png" alt="my face" className="faceImage"/>
+				<img src={img} alt="my face" className="faceImage"/>
 				<div className="textWelcome">So happy to have you here. Please take a look around!</div>
 			</div>
 		</div>
