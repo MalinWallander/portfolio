@@ -1,5 +1,6 @@
 import './AboutMe.css';
 import React from 'react';
+import img from "../assets/geometrical-img.avif";
 
 function AboutMe() {
 
@@ -25,7 +26,7 @@ function AboutMe() {
 	return (
 		<>
 		<div id="about" className="aboutContainer">
-			<img src="src/assets/geometrical-img.avif" alt="red geometrical image" className="geometricalImageAboutMe"/>
+			<img src={img} alt="red geometrical image" className="geometricalImageAboutMe"/>
 			<FadeInSection>
 					<div className="textAboutMeContainer">
 						<div className="titleAboutMe">about me:</div>

@@ -1,7 +1,7 @@
 .contactPageContainer {
   height: 400px;
   width: 100vw;
-  background-image: url("src/assets/blob-scene-haikei.svg");
+  background-image: url("../assets/blob-scene-haikei.svg");
   margin-top: 50px;
 
   text-align: center;
