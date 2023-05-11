@@ -1,0 +1,117 @@
+.projectCardContainer {
+  width: 60vw;
+  height: 30vh;
+  background-color: #df374b;
+  border-radius: 15px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+
+  font-family: "Inria Serif";
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+
+.projectCardContainer:hover {
+  transform: scale(1.1);
+}
+
+.visualInfoProject {
+  width: 40%;
+  margin: auto;
+  padding-left: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textInfoProject {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #ffff;
+
+  text-align: left;
+}
+
+.titleProject {
+  width: 60%;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.screenshotProject {
+  height: 150px;
+  width: 100%;
+
+  object-fit: cover;
+}
+
+.logosContainer {
+  width: 80%;
+  height: 50px;
+
+  margin-top: 10px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.logosProject {
+  font-size: 50px;
+  color: #ffff;
+}
+
+.descriptionProject {
+  width: 100%;
+  height: 20vh;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+  margin: auto;
+}
+
+button {
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 10px;
+
+  font-family: "Inria Serif";
+  font-weight: 700;
+  color: #ffff;
+
+  background-color: #ef4b55;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid #ffff;
+}
+
+.linkProjectPage {
+  text-decoration: none;
+  color: #ffff;
+  margin-bottom: 20px;
+  width: fit-content;
+
+  transition: 0.3s ease-in-out;
+}
+
+.linkProjectPage:hover {
+  background-color: #9f202f;
+}

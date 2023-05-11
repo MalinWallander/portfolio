@@ -1,0 +1,39 @@
+.contactPageContainer {
+  height: 400px;
+  width: 100vw;
+  background-image: url("src/assets/blob-scene-haikei.svg");
+  margin-top: 50px;
+
+  text-align: center;
+
+  font-family: "Inria Serif";
+  font-style: italic;
+  font-weight: 700;
+}
+
+.titleContact {
+  font-size: 3vw;
+  padding-top: 50px;
+  color: #ffff;
+}
+
+.textContact {
+  font-size: 1.5vw;
+  padding-top: 20px;
+  font-style: normal;
+}
+
+.logosContact {
+  display: flex;
+  width: 30vw;
+  margin: auto;
+  justify-content: space-around;
+  padding-top: 60px;
+}
+
+.logoContact {
+  font-size: 50px;
+  color: #ffff;
+
+  cursor: pointer;
+}

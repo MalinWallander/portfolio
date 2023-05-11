@@ -1,0 +1,30 @@
+.wavesImg {
+  width: 100vw;
+}
+
+.projectsContainer {
+  width: 100vw;
+  text-align: center;
+
+  border-top: solid 60px #ef4b55;
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.titleProjects {
+  font-family: "Inria Serif";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 4vw;
+  padding-bottom: 30px;
+}
+
+.projectsCardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  width: 100vw;
+}

@@ -1,0 +1,169 @@
+.skillsContainer {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #ef4b55;
+
+  font-family: "Inria Serif";
+  font-style: italic;
+
+  text-align: center;
+}
+
+.titleSkills {
+  font-size: 10vw;
+  color: #ffff;
+  padding: 15vh;
+}
+
+.containersSkills {
+  display: flex;
+  width: 70vw;
+  justify-content: space-around;
+  margin: auto;
+}
+
+@keyframes tilt-shaking {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  1% {
+    transform: translate(5px, 5px) rotate(5deg);
+  }
+  2% {
+    transform: translate(0, 0) rotate(0eg);
+  }
+  3% {
+    transform: translate(-5px, 5px) rotate(-5deg);
+  }
+  4% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+
+@keyframes horizontal-shaking {
+  0% {
+    transform: translateX(0);
+  }
+  51% {
+    transform: translateX(5px);
+  }
+  52% {
+    transform: translateX(-5px);
+  }
+  53% {
+    transform: translateX(5px);
+  }
+  54% {
+    transform: translateX(0);
+  }
+}
+
+.hardSkills {
+  width: 300px;
+  height: 300px;
+  background-color: transparent;
+  perspective: 1000px;
+}
+
+.hardSkillsFront {
+  animation: tilt-shaking 5s infinite;
+}
+
+.softSkillsFront {
+  animation: horizontal-shaking 5s infinite;
+}
+
+.softSkills {
+  width: 300px;
+  height: 300px;
+  background-color: transparent;
+  border-radius: 50%;
+  perspective: 1000px;
+}
+
+.hardSkillsInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.softSkillsInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 50%;
+}
+
+.hardSkills:hover .hardSkillsInner {
+  transform: rotateY(180deg);
+}
+
+.softSkills:hover .softSkillsInner {
+  transform: rotateY(180deg);
+}
+
+.hardSkillsFront,
+.hardSkillsBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.softSkillsFront,
+.softSkillsBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.hardSkillsFront {
+  background-color: #ffff;
+  color: black;
+}
+
+.hardSkillsBack {
+  background-color: #ffff;
+  transform: rotateY(180deg);
+  object-fit: cover;
+}
+
+.softSkillsFront {
+  background-color: #ffff;
+  color: black;
+}
+
+.softSkillsBack {
+  background-color: #ffff;
+  transform: rotateY(180deg);
+}
+
+.bigTextSkills {
+  font-size: 40px;
+}
+
+.skills {
+  font-size: 30px;
+  margin-bottom: 5px;
+}

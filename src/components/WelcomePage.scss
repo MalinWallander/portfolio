@@ -1,0 +1,66 @@
+.welcomeContainer {
+  width: 100vw;
+  height: 100vh;
+
+  font-family: "Inria Serif";
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+}
+
+.particle {
+  position: absolute;
+  border-radius: 50%;
+}
+
+@for $i from 1 through 30 {
+  @keyframes particle-animation-#{$i} {
+    100% {
+      transform: translate3d(
+        (random(90) * 1vw),
+        (random(90) * 1vh),
+        (random(100) * 1px)
+      );
+    }
+  }
+
+  .particle:nth-child(#{$i}) {
+    animation: particle-animation-#{$i} 60s infinite;
+    $size: random(10) + 5 + px;
+    opacity: random(100) / 100;
+    height: $size;
+    width: $size;
+    animation-delay: -$i * 0.2s;
+    transform: translate3d(
+      (random(90) * 1vw),
+      (random(90) * 1vh),
+      (random(100) * 1px)
+    );
+    background: hsl(355 + random(5), 70%, 50%);
+  }
+}
+
+.titleWelcome {
+  font-size: 4vw;
+  padding-top: 30px;
+  padding-top: 25vh;
+  padding-bottom: 10vh;
+}
+
+.contentWelcome {
+  display: flex;
+  gap: 10vw;
+  margin-left: 50%;
+  transform: translate(-50%);
+  width: 60vw;
+}
+
+.faceImage {
+  width: 30vw;
+  object-fit: cover;
+}
+
+.textWelcome {
+  margin-top: 100px;
+  font-size: 2vw;
+}

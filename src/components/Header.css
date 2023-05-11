@@ -1,0 +1,55 @@
+.headerContainer {
+  width: 100vw;
+  height: 85px;
+  background: #df374b;
+  color: #ffff;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  font-family: "Inria Serif";
+  font-style: italic;
+
+  position: sticky;
+  top: 0;
+
+  z-index: 10;
+}
+
+.MWLogo {
+  font-weight: 700;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.navList {
+  font-weight: 700;
+  font-size: 1.5vw;
+
+  list-style: none;
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+}
+
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: transform 0.1s;
+}
+
+.downloadCV {
+  font-size: 30px;
+  text-decoration: none;
+  color: #ffff;
+  font-style: normal;
+}
+
+.downloadLogo {
+  padding-top: 10px;
+}
