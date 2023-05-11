@@ -38,7 +38,7 @@ function WelcomePage(){
 		</div>
 			<div className="titleWelcome">welcome to my portfolio.</div>
 			<div className="contentWelcome">
-				<img src="src/assets/face-img.png" alt="my face" className="faceImage"/>
+				<img src="../assets/face-img.png" alt="my face" className="faceImage"/>
 				<div className="textWelcome">So happy to have you here. Please take a look around!</div>
 			</div>
 		</div>
