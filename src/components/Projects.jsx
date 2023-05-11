@@ -7,6 +7,7 @@ import travelImg from '../assets/travelReact.png';
 import gameImg from '../assets/geography-arcade.png';
 import innerImg from '../assets/inner-journey.png';
 import mulanImg from '../assets/mulan-website.png';
+import wavesImg from '../assets/layered-waves-haikei-edited.png';
 
 import ProjectsCard from './ProjectsCard';
 
@@ -14,7 +15,7 @@ function Projects(){
 	return (
 		<>
 		<div className='projectsContainer' id='projects'>
-		<img src="src/assets/layered-waves-haikei-edited.png" alt="waves" className='wavesImg'/>
+		<img src={wavesImg} alt="waves" className='wavesImg'/>
 		<h2 className='titleProjects'>projects I've worked on:</h2>
 		<div className='projectsCardContainer'>
 			<ProjectsCard title={'Travel agency website'} screenshot={travelImg} description={'A project where we recreated a single page application based on a given design file. Coded in React and styled with CSS, incorporating React Router for navigation.'} logoReact={<DiReact/>} logoCSS={<DiCss3/>} logoRouter={<SiReactrouter/>}projectURL={'https://gentle-florentine-40a92e.netlify.app/'} projectGit={'https://github.com/MalinWallander/TravelPage-React'}/>
