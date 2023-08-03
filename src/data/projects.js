@@ -67,7 +67,7 @@ const projects = [
     descriptionShort:
       "My first ever coding project! It is all done in HTML and CSS. While not being the most sleek or complex, it shows where I began. And with a theme of 90s website, it was the perfect excuse to make it as ugly as possible!",
     descriptionLong:
-      "This is my first ever interaction with coding. The course taught us HTML and CSS and the brief was to create a 90s website about our favourite thing from the 90s. It is not pretty or complex or impressive but this project means a lot to me simply because it was the forst time I created something using code. I lernt a lot about animations, structure of a good HTML document and just how much you can accomplish with CSS. Would I do it differently today? Absolutely. Do I return to this website just to see how far I've come? Yes. I'm very glad absout all the mistakes and clumpsy lines because in them I see my progress.",
+      "This is my first ever interaction with coding. The course taught us HTML and CSS and the brief was to create a 90s website about our favourite thing from the 90s. It is not pretty or complex (or impressive) but this project means a lot to me simply because it was the first time I created something using code. I lernt a lot about animations, structure of a good HTML document and just how much you can accomplish with CSS. Would I do it differently today? Absolutely. Do I return to this website just to see how far I've come? Yes. I'm very glad absout all the mistakes and clumpsy lines because in them I see my progress.",
     diReact: false,
     diJavascript: false,
     diCss3: true,
