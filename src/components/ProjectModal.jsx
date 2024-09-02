@@ -6,7 +6,9 @@ import {
   DiNodejs,
   DiHtml5,
 } from "react-icons/di";
+import { BsBadge3D } from "react-icons/bs";
 import { SiReactrouter } from "react-icons/si";
+import { FiFigma } from "react-icons/fi";
 
 import {AiOutlineCloseCircle} from 'react-icons/ai'
 
@@ -34,6 +36,8 @@ function ProjectModal ({
 				<div className='logoProject'>{project.diNodejs && <DiNodejs/> }</div>
 				<div className='logoProject'>{project.diHtml5 && <DiHtml5/> }</div>
 				<div className='logoProject'>{project.siReactrouter && <SiReactrouter/> }</div>
+				<div className='logoProject'>{project.BsBadge3D && <BsBadge3D/> }</div>
+				<div className='logoProject'>{project.BsBadge3D && <FiFigma /> }</div>
 			</div>
 		</div>
 		</div>

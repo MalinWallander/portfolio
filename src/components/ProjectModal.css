@@ -27,6 +27,8 @@
   position: fixed;
   left: 20vw;
   top: 40px;
+
+  overflow: scroll;
 }
 
 .closeButton {
