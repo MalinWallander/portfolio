@@ -31,8 +31,8 @@ const projects = [
     siReactrouter: true,
     BsBadge3D: true,
     FiFigma: true,
-    projectURL: "https://shiny-maamoul-d09a01.netlify.app/",
-    projectGit: "https://github.com/MalinWallander/Game-group-2",
+    projectURL: "https://stockholmsarcomagroup.netlify.app/",
+    projectGit: "https://github.com/MalinWallander/stockholm-sarcoma-group",
   },
   {
     title: "Sarcoma research group internal patient data storage",
@@ -49,8 +49,8 @@ const projects = [
     siReactrouter: true,
     BsBadge3D: true,
     FiFigma: true,
-    projectURL: "https://shiny-maamoul-d09a01.netlify.app/",
-    projectGit: "https://github.com/MalinWallander/Game-group-2",
+    projectURL: "Not available",
+    projectGit: "Not available",
   },
   {
     title: "Travel agency website",
