@@ -46,8 +46,8 @@ function ProjectsCard({
 				<a className='linkProjectPage' >See more...</a>
 			</div>
 			<div className='buttonsContainer'>
-				<a href={projectURL} target='_blank'><button className='liveButton'>Live Demo</button></a>
-				<a href={projectGit} target='_blank'><button className='gitHubButton' >GitHub repo</button></a>
+				{projectURL && (<a href={projectURL} target='_blank'><button className='liveButton'>Live Demo</button></a>)}
+				{projectGit && (<a href={projectGit} target='_blank'><button className='gitHubButton' >GitHub repo</button></a>)}
 			</div>
 		</div>
 		</>

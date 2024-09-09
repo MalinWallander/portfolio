@@ -35,7 +35,7 @@ const projects = [
     projectGit: "https://github.com/MalinWallander/stockholm-sarcoma-group",
   },
   {
-    title: "Sarcoma research group internal patient data storage",
+    title: "Internal patient data storage",
     screenshots: [sarcomaDbImg1, sarcomaDbImg2, sarcomaDbImg3, sarcomaDbImg4],
     descriptionShort:
       "My internship that gave me the opportunity to deep dive into data storage, data manipulation and proper backend work. ",
@@ -49,8 +49,8 @@ const projects = [
     siReactrouter: true,
     BsBadge3D: true,
     FiFigma: true,
-    projectURL: "Not available",
-    projectGit: "Not available",
+    projectURL: null,
+    projectGit: null,
   },
   {
     title: "Travel agency website",

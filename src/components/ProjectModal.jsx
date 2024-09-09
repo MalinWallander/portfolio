@@ -9,8 +9,7 @@ import {
 import { BsBadge3D } from "react-icons/bs";
 import { SiReactrouter } from "react-icons/si";
 import { FiFigma } from "react-icons/fi";
-
-import {AiOutlineCloseCircle} from 'react-icons/ai'
+import { IoMdArrowBack } from "react-icons/io";
 
 function ProjectModal ({
 	onClose,
@@ -19,7 +18,7 @@ function ProjectModal ({
 		<>
 		<div className='modalBackground' onClick={onClose}>
 		<div className='projectPageContainer'>
-			<div className='closeButton' onClick={onClose}><AiOutlineCloseCircle/></div>
+			<div className='closeButton' onClick={onClose}><IoMdArrowBack /></div>
 			<h2 className='titleProjectPage'>{project.title}</h2>
 			<div className='infoProjectContainer'>
 			<div className='screenshotContainer'>

@@ -37,7 +37,7 @@ function WelcomePage(){
 			<div className="particle"></div>
 			<div className="particle"></div>
 		</div>
-			<div className="titleWelcome">welcome to my portfolio.</div>
+			<div className="titleWelcome">Welcome to my portfolio</div>
 			<div className="contentWelcome">
 				<img src={img} alt="my face" className="faceImage"/>
 				<div className="textWelcome">So happy to have you here. Please take a look around!</div>
