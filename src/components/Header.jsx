@@ -13,7 +13,7 @@ function Header() {
 				<li><Link to="projects" spy={true} smooth={true}>Projects</Link></li>
 				<li><Link to="contact" spy={true} smooth={true}>Contact me</Link></li>
 			</ul>
-			<a href='./src/assets/CV.pdf' download className='downloadCV'><BiDownload className='downloadLogo'/>CV</a>
+			{/* <a href='./src/assets/CV.pdf' download className='downloadCV'><BiDownload className='downloadLogo'/>CV</a> */}
 		</div>
 		</>
 	)
